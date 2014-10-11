@@ -1,0 +1,10 @@
+K:\StudentEntryApp\StudentEntryApp\bin\Debug\StudentEntryApp.exe.config
+E:\BASIS\Associate Relationship\StudentEntryApp\StudentEntryApp\bin\Debug\StudentEntryApp.exe.config
+E:\BASIS\Associate Relationship\StudentEntryApp\StudentEntryApp\bin\Debug\StudentEntryApp.exe
+E:\BASIS\Associate Relationship\StudentEntryApp\StudentEntryApp\bin\Debug\StudentEntryApp.pdb
+E:\BASIS\Associate Relationship\StudentEntryApp\StudentEntryApp\obj\Debug\StudentEntryApp.csprojResolveAssemblyReference.cache
+E:\BASIS\Associate Relationship\StudentEntryApp\StudentEntryApp\obj\Debug\StudentEntryApp.StudentEntryUI.resources
+E:\BASIS\Associate Relationship\StudentEntryApp\StudentEntryApp\obj\Debug\StudentEntryApp.Properties.Resources.resources
+E:\BASIS\Associate Relationship\StudentEntryApp\StudentEntryApp\obj\Debug\StudentEntryApp.csproj.GenerateResource.Cache
+E:\BASIS\Associate Relationship\StudentEntryApp\StudentEntryApp\obj\Debug\StudentEntryApp.exe
+E:\BASIS\Associate Relationship\StudentEntryApp\StudentEntryApp\obj\Debug\StudentEntryApp.pdb
