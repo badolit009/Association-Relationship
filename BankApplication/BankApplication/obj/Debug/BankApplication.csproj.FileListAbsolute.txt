@@ -1,0 +1,9 @@
+K:\BankApplication\BankApplication\bin\Debug\BankApplication.exe.config
+K:\BankApplication\BankApplication\bin\Debug\BankApplication.exe
+K:\BankApplication\BankApplication\bin\Debug\BankApplication.pdb
+K:\BankApplication\BankApplication\obj\Debug\BankApplication.csprojResolveAssemblyReference.cache
+K:\BankApplication\BankApplication\obj\Debug\BankApplication.BankUI.resources
+K:\BankApplication\BankApplication\obj\Debug\BankApplication.Properties.Resources.resources
+K:\BankApplication\BankApplication\obj\Debug\BankApplication.csproj.GenerateResource.Cache
+K:\BankApplication\BankApplication\obj\Debug\BankApplication.exe
+K:\BankApplication\BankApplication\obj\Debug\BankApplication.pdb
