@@ -8,3 +8,12 @@ E:\BASIS\Associate Relationship\StudentEntryApp\StudentEntryApp\obj\Debug\Studen
 E:\BASIS\Associate Relationship\StudentEntryApp\StudentEntryApp\obj\Debug\StudentEntryApp.csproj.GenerateResource.Cache
 E:\BASIS\Associate Relationship\StudentEntryApp\StudentEntryApp\obj\Debug\StudentEntryApp.exe
 E:\BASIS\Associate Relationship\StudentEntryApp\StudentEntryApp\obj\Debug\StudentEntryApp.pdb
+C:\Users\Badol Hossain\Desktop\GitUpload\Association-Relationship\StudentEntryApp\StudentEntryApp\bin\Debug\StudentEntryApp.exe.config
+C:\Users\Badol Hossain\Desktop\GitUpload\Association-Relationship\StudentEntryApp\StudentEntryApp\obj\Debug\StudentEntryApp.exe
+C:\Users\Badol Hossain\Desktop\GitUpload\Association-Relationship\StudentEntryApp\StudentEntryApp\obj\Debug\StudentEntryApp.pdb
+C:\Users\Badol Hossain\Desktop\GitUpload\Association-Relationship\StudentEntryApp\StudentEntryApp\bin\Debug\StudentEntryApp.exe
+C:\Users\Badol Hossain\Desktop\GitUpload\Association-Relationship\StudentEntryApp\StudentEntryApp\bin\Debug\StudentEntryApp.pdb
+C:\Users\Badol Hossain\Desktop\GitUpload\Association-Relationship\StudentEntryApp\StudentEntryApp\obj\Debug\StudentEntryApp.csprojResolveAssemblyReference.cache
+C:\Users\Badol Hossain\Desktop\GitUpload\Association-Relationship\StudentEntryApp\StudentEntryApp\obj\Debug\StudentEntryApp.StudentEntryUI.resources
+C:\Users\Badol Hossain\Desktop\GitUpload\Association-Relationship\StudentEntryApp\StudentEntryApp\obj\Debug\StudentEntryApp.Properties.Resources.resources
+C:\Users\Badol Hossain\Desktop\GitUpload\Association-Relationship\StudentEntryApp\StudentEntryApp\obj\Debug\StudentEntryApp.csproj.GenerateResource.Cache

@@ -22,12 +22,12 @@ namespace StudentEntryApp
         private void saveButton_Click(object sender, EventArgs e)
         {
             aDepartment = new Department(codeTextBox.Text,departmentName.Text);
-            MessageBox.Show("has been created");
+            MessageBox.Show(@"has been created");
         }
 
         private void studentSaveButton_Click(object sender, EventArgs e)
         {
-            Student aStudent = new Student(studentNameTextBox.Text, emailTextBox.Text, regNoTextBox.Text);
+            Student aStudent = new Student(regNoTextBox.Text,studentNameTextBox.Text, emailTextBox.Text);
             string msg=aDepartment.AddStudent(aStudent);
             MessageBox.Show(msg);
         }
@@ -35,8 +35,8 @@ namespace StudentEntryApp
         private void showButton_Click(object sender, EventArgs e)
         {
             int noOfStudent = aDepartment.students.Count;
-            string msg = "Dpert Code: " + aDepartment.Code + " Deprt Name: " + aDepartment.DepartmentName+"No Of Student"+noOfStudent;
-            msg += "\n Student RegNo\t Name\t Email\n";
+            string msg = "Dpert Code: " + aDepartment.Code + " Deprt Name: " + aDepartment.DepartmentName+"No Of Student"+noOfStudent+"\n";
+            msg += " Student RegNo \t Name \t Email \n";
             foreach (Student aStudent in aDepartment.students)
             {
                 msg += aStudent.RegNo + "\t" + aStudent.Name + "\t" + aStudent.Email+"\n";
