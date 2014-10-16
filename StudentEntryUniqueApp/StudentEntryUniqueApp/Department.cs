@@ -12,7 +12,7 @@ namespace StudentEntryUniqueApp
         private const int  MAX_REG_NO=3;
         public string Code { get; set; }
         public string Name { get; set; }
-        public List<Student> Students { get; set; } 
+        public Dictionary<string,Student> Students { get; set; } 
         public Department(string code, string name):this()
         {
             Code = code;
@@ -21,7 +21,7 @@ namespace StudentEntryUniqueApp
 
         public Department()
         {
-            Students = new List<Student>();
+            Students = new Dictionary<string, Student>();
         }
 
         public string AddStudent(Student aStudent)
@@ -32,17 +32,16 @@ namespace StudentEntryUniqueApp
                 {
                     return "This RegNo Already Exits In This System";
                 }
-                Students.Add(aStudent);
+                Students.Add(aStudent.RegNo,aStudent);
                 return "Student Has been Added";
             }
             return "Overflow";
         }
         public bool HasThisRegNoValid(string regNo)
         {
-            foreach (Student aStudents in Students)
+            if (Students.ContainsKey(regNo))
             {
-                if(aStudents.RegNo==regNo)
-                    return true;
+                return true;
             }
             return false;
         }

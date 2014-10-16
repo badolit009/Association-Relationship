@@ -41,10 +41,10 @@ namespace StudentEntryUniqueApp
         {
             int noOfStudent = aDepartment.Students.Count;
             string msg ="";
-            msg += "Department Name : " + aDepartment.Code + "\tName : " + aDepartment.Name + "\t Number Of Student : " + noOfStudent+"\n";
-            foreach (Student aStudent in aDepartment.Students)
+            msg += "Department Name : " + aDepartment.Code + "\t Name : " + aDepartment.Name + "\t Number Of Student : " + noOfStudent+"\n";
+            foreach (Student aStudent in aDepartment.Students.Values)
             {
-                msg += "RegNo "+aStudent.RegNo +"\t Name : "+ aStudent.Name +"\t Email : "+ aStudent.Email+"\n";
+                msg += "RegNo : "+aStudent.RegNo +"\t Name : "+ aStudent.Name +"\t Email : "+ aStudent.Email+"\n";
                 
             }
             MessageBox.Show(msg);
