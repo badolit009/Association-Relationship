@@ -1,0 +1,12 @@
+C:\Users\Badol Hossain\Documents\Visual Studio 2013\Projects\OPP\EnterprizeApp\EnterprizeApp\bin\Debug\EnterprizeApp.exe.config
+C:\Users\Badol Hossain\Documents\Visual Studio 2013\Projects\OPP\EnterprizeApp\EnterprizeApp\bin\Debug\EnterprizeApp.exe
+C:\Users\Badol Hossain\Documents\Visual Studio 2013\Projects\OPP\EnterprizeApp\EnterprizeApp\bin\Debug\EnterprizeApp.pdb
+C:\Users\Badol Hossain\Documents\Visual Studio 2013\Projects\OPP\EnterprizeApp\EnterprizeApp\obj\Debug\EnterprizeApp.csprojResolveAssemblyReference.cache
+C:\Users\Badol Hossain\Documents\Visual Studio 2013\Projects\OPP\EnterprizeApp\EnterprizeApp\obj\Debug\EnterprizeApp.EnterprizeUI.resources
+C:\Users\Badol Hossain\Documents\Visual Studio 2013\Projects\OPP\EnterprizeApp\EnterprizeApp\obj\Debug\EnterprizeApp.Properties.Resources.resources
+C:\Users\Badol Hossain\Documents\Visual Studio 2013\Projects\OPP\EnterprizeApp\EnterprizeApp\obj\Debug\EnterprizeApp.csproj.GenerateResource.Cache
+C:\Users\Badol Hossain\Documents\Visual Studio 2013\Projects\OPP\EnterprizeApp\EnterprizeApp\obj\Debug\EnterprizeApp.exe
+C:\Users\Badol Hossain\Documents\Visual Studio 2013\Projects\OPP\EnterprizeApp\EnterprizeApp\obj\Debug\EnterprizeApp.pdb
+C:\Users\Badol Hossain\Desktop\GitUpload\Association-Relationship\EnterprizeApp\EnterprizeApp\bin\Debug\EnterprizeApp.exe.config
+C:\Users\Badol Hossain\Desktop\GitUpload\Association-Relationship\EnterprizeApp\EnterprizeApp\obj\Debug\EnterprizeApp.exe
+C:\Users\Badol Hossain\Desktop\GitUpload\Association-Relationship\EnterprizeApp\EnterprizeApp\obj\Debug\EnterprizeApp.pdb
