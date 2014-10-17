@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -14,16 +15,17 @@ namespace SuperShopApp.DLL.Gateway
 
         public ProductGateway()
         {
-            string conn = "server=BADOL-PC; database=SuperShop; integrated security=true";
-            connection = new SqlConnection();
-            connection.ConnectionString = conn;
+            string connectionString = ConfigurationManager.ConnectionStrings["SuperShop"].ConnectionString;
+            connection = new SqlConnection(connectionString);
         }
 
         public string Save(Product aProduct)
         {
             connection.Open();
-            string query = string.Format("INSERT INTO t_Product VALUES('{0}','{1}')", aProduct.ItemId, aProduct.Quantity);
+            string query = "INSERT INTO t_Product(ItemId,Quantity) VALUES(@0,@1)";
             SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@0", aProduct.ItemId);
+            command.Parameters.AddWithValue("@1", aProduct.Quantity);
             int affectedrows = command.ExecuteNonQuery();
             connection.Close();
             if (affectedrows > 0)
@@ -58,8 +60,9 @@ namespace SuperShopApp.DLL.Gateway
         public bool HasThisItem(int itemId)
         {
             connection.Open();
-            string query = string.Format("SELECT * FROM t_Product WHERE ItemId=('{0}')", itemId);
+            string query = "SELECT * FROM t_Product WHERE ItemId=@0";
             SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@0", itemId);
             SqlDataReader aReader = command.ExecuteReader();
             bool HasRow = aReader.HasRows;
             connection.Close();
@@ -69,8 +72,10 @@ namespace SuperShopApp.DLL.Gateway
         public void UpdateQuantity(Product quantity)
         {
             connection.Open();
-            string query = string.Format("UPDATE t_Product SET Quantity+=" + quantity.Quantity + "WHERE ItemId=" + quantity.ItemId);
+            string query = string.Format("UPDATE t_Product SET Quantity+=@0 WHERE ItemId=@1");
             SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@0", quantity.Quantity);
+            command.Parameters.AddWithValue("@1", quantity.ItemId);
             command.ExecuteNonQuery();
             connection.Close();
         }

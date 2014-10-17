@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -13,16 +14,17 @@ namespace SuperShopApp.DLL.Gateway
         private SqlConnection connection;
         public ShopGateway()
         {
-            string conn = "server=BADOL-PC; database=SuperShop; integrated security=true";
-            connection = new SqlConnection();
-            connection.ConnectionString = conn;
+            string connectionString = ConfigurationManager.ConnectionStrings["SuperShop"].ConnectionString;
+            connection = new SqlConnection(connectionString);
         }
 
         public string Save(Shop aShop)
         {
             connection.Open();
-            string query = string.Format("INSERT INTO t_Shop VALUES('{0}','{1}')", aShop.ShopName, aShop.ShopAddress);
+            string query = "INSERT INTO t_Shop(Name,Address)VALUES(@0,@1)";
             SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@0", aShop.ShopName);
+            command.Parameters.AddWithValue("@1", aShop.ShopAddress);
             int affectedrows = command.ExecuteNonQuery();
             connection.Close();
             if (affectedrows > 0)
